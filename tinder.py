@@ -115,11 +115,7 @@ def swipe(temp):
                 close_popup(temp)
             except Exception:
                 close_match(temp)
-        
-    
-def main():
-    login()
     
 if __name__ == "__main__":
-    main()
+    login()
     
